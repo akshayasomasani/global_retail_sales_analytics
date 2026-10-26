@@ -5,7 +5,7 @@ End-to-end data analysis pipeline integrating relational CSV tables (Sales, Prod
 ## Project Structure & Workflow
 - **Data Preprocessing & Merging:** Cleaned and combined four relational datasets (`sales.csv`, `products.csv`, `people.csv`, `geo.csv`) using Python (Pandas) multi-table `LEFT JOIN` operations.
 - **SQL / Relational Schema Concepts:** Designed primary/foreign key relationships (`sales.product_id` -> `products.product_id`, etc.).
-- **Microsoft Excel:** Multi-sheet reporting (retail_final_report.xlsx), PivotTables, and PivotCharts for executive dashboarding.
+- **Microsoft Excel:** Multi-sheet reporting ([retail_final_report.xlsx](retail_final_report.xlsx)), PivotTables, and PivotCharts for executive dashboarding.
 
 ## Dataset Structure
 The project integrates four relational data sources:
@@ -21,4 +21,4 @@ The project integrates four relational data sources:
 
 ## Visualizations & Reports
 - **Python Chart:** Generated automated bar plots via Seaborn displaying profit margins across product categories.
-- **Excel Report:** Exported a structured, multi-sheet workbook (retail_final_report.xlsx) utilized for interactive PivotTable dashboards.
+- **Excel Report:** Exported a structured, multi-sheet workbook ([retail_final_report.xlsx](retail_final_report.xlsx)) utilized for interactive PivotTable dashboards.
